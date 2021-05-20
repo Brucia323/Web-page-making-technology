@@ -12,25 +12,29 @@
 
         #container {
             position: absolute;
-            left: 50px;
-            right: 50px;
+            left: 0px;
+            right: 0px;
             bottom: 0px;
             top: 0px;
-            background-color: lightblue;
+            width: 100%;
+            height: 100%;
+            background-color: yellow;
             display: flex;
             flex-direction: column;
         }
 
         header {
             background-color: red;
-            /* height: 100%; */
-            flex: 1;
+            height: 30px;
+            width: 100%;
+            /* flex: 1; */
         }
 
         main {
             background-color: orange;
             /* height: 100%; */
-            flex: 3;
+            flex: 1;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
@@ -40,8 +44,9 @@
 
         footer {
             background-color: yellow;
-            /* height: 100%; */
-            flex: 1;
+            height: 100px;
+            width: 100%;
+            /* flex: 1; */
         }
 
         main div {
@@ -53,13 +58,68 @@
             line-height: 50px;
             color: red;
         }
+
+        header ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        header li {
+            width: 100px;
+            text-align: center;
+            background-color: white;
+            margin-left: 10px;
+            line-height: 30px;
+        }
+
+        header a {
+            color: red;
+            display: block;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            background-color: red;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: 2px;
+        }
+
+        footer {
+            display: flex;
+        }
+
+        nav#zc {
+            background-color: lightblue;
+            flex: 1;
+        }
+
+        nav#cj {
+            background-color: lightyellow;
+            flex: 2;
+        }
+
+        nav#gb {
+            background-color: lightgreen;
+            flex: 1;
+        }
     </style>
 </head>
 
 <body>
     <div id="container">
         <header>
-
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">政策研究</a></li>
+                <li><a href="#">热点研究</a></li>
+                <li><a href="#">量能研究</a></li>
+                <li><a href="#">企业公告</a></li>
+                <li><a href="#">涨停战法</a></li>
+            </ul>
         </header>
         <main>
             <div>1</div>
@@ -78,7 +138,9 @@
             <div>14</div>
         </main>
         <footer>
-
+            <nav id="zc"></nav>
+            <nav id="cj"></nav>
+            <nav id="gb"></nav>
         </footer>
     </div>
 </body>
