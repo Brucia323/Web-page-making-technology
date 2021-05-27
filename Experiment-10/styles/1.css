@@ -1,0 +1,6 @@
+body {
+    background-color: #03f;
+}
+.container{
+    column-count: 3;
+}
