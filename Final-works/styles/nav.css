@@ -1,0 +1,55 @@
+#daohanglan div ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+#daohanglan div ul li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    display: list-item;
+}
+
+#daohanglan div ul li:hover {
+    background-color: #023f87;
+    color: white;
+}
+
+#daohanglan div ul li:hover ul {
+    display: block;
+    background-color: #023f87;
+    color: white;
+}
+
+#daohanglan div ul li:hover ul li {
+    display: block;
+    background-color: #023f87;
+    color: white;
+}
+
+#daohanglan div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#daohanglan div ul li a:hover {
+    background-color: #023f87;
+    color: white;
+}
+
+#daohanglan div ul li:hover a {
+    display: block;
+    background-color: #023f87;
+    color: white;
+}
+
+#daohanglan div ul li ul {
+    display: none;
+    padding-left: 0px;
+    margin-top: 10px;
+    background-color: #023f87;
+}
+
+#daohanglan div ul li ul li:hover a {
+    background-color: #ff9b25;
+}
