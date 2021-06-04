@@ -2,14 +2,16 @@ header {
     background-color: #023f87;
     display: flex;
 }
-h1{
+
+h1 {
     position: relative;
     background-color: #023f87;
     color: white;
     left: 5%;
     width: 100%;
 }
-form{
+
+form {
     background-color: #023f87;
     position: relative;
     margin-top: 30px;
