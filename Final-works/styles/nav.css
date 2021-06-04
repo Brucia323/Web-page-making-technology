@@ -16,6 +16,19 @@
     color: white;
 }
 
+#daohanglan ul li:hover a {
+    display: block;
+    background-color: #023f87;
+    color: white;
+    animation-name: zhankai;
+    animation-duration: 100ms;
+}
+
+#daohanglan ul li:leave a {
+    animation-name: shouqi;
+    animation-duration: 100ms;
+}
+
 #daohanglan ul li:hover ul {
     display: block;
     background-color: #023f87;
@@ -41,12 +54,6 @@
     color: white;
 }
 
-#daohanglan ul li:hover a {
-    display: block;
-    background-color: #023f87;
-    color: white;
-}
-
 #daohanglan ul li ul {
     display: none;
     padding-left: 0px;
@@ -63,4 +70,16 @@
 
 #daohanglan ul li ul li:hover a {
     background-color: #ff9b25;
+}
+
+@keyframes zhankai {
+    from {
+        height: 0px;
+    }
+}
+
+@keyframes shouqi {
+    to {
+        height: 0px;
+    }
 }
