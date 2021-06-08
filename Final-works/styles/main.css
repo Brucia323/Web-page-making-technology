@@ -1,0 +1,10 @@
+#image {
+    position: absolute;
+    display: block;
+    top: 150px;
+    z-index: 1;
+}
+
+#image img {
+    width: 100%;
+}
