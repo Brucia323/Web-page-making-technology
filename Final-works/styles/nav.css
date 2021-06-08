@@ -1,85 +1,62 @@
-#daohanglan ul {
+nav ul {
     display: flex;
-    padding-left: 0px;
-    margin: 0px;
+    align-items: flex-start;
 }
 
-#daohanglan ul li {
+nav ul li {
     width: 100%;
     list-style: none;
     text-align: center;
-    display: list-item;
 }
 
-#daohanglan ul li:hover {
+nav ul li:hover {
     background-color: #023f87;
     color: white;
 }
 
-#daohanglan ul li:hover a {
-    display: block;
-    background-color: #023f87;
-    color: white;
-    animation-name: zhankai;
-    animation-duration: 100ms;
-}
-
-#daohanglan ul li:leave a {
-    animation-name: shouqi;
-    animation-duration: 100ms;
-}
-
-#daohanglan ul li:hover ul {
+nav ul li:hover a {
     display: block;
     background-color: #023f87;
     color: white;
 }
 
-#daohanglan ul li:hover ul li {
+nav ul li:hover ul {
     display: block;
     background-color: #023f87;
     color: white;
 }
 
-#daohanglan ul li a {
+nav ul li:hover ul li {
+    background-color: #023f87;
+    color: white;
+}
+
+nav ul li a {
     text-decoration: none;
     height: 30px;
     position: relative;
-    top: 10px;
+    top: 15px;
     color: black;
 }
 
-#daohanglan ul li a:hover {
+nav ul li a:hover {
     background-color: #023f87;
     color: white;
 }
 
-#daohanglan ul li ul {
+nav ul li ul {
     display: none;
-    padding-left: 0px;
-    margin-top: 10px;
     background-color: #023f87;
 }
 
-#daohanglan ul li ul li a {
+nav ul li ul li a {
     position: relative;
     padding-top: 10%;
     padding-bottom: 10%;
     height: 100%;
+    z-index: 10;
 }
 
-#daohanglan ul li ul li:hover a {
+nav ul li ul li:hover a {
     background-color: #ff9b25;
-}
-
-@keyframes zhankai {
-    from {
-        height: 0px;
-    }
-}
-
-@keyframes shouqi {
-    to {
-        height: 0px;
-    }
 }
