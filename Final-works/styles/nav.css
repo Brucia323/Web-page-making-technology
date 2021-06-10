@@ -3,10 +3,11 @@ nav ul {
     align-items: flex-start;
 }
 
-nav ul li {
+nav>ul>li {
     width: 100%;
     list-style: none;
     text-align: center;
+    height: 50px;
 }
 
 nav ul li:hover {
@@ -24,6 +25,16 @@ nav ul li:hover ul {
     display: block;
     background-color: #023f87;
     color: white;
+}
+
+nav ul li:hover a ul li a {
+    animation: zhankai 500ms;
+}
+
+@keyframes zhankai {
+    from {
+        height: 0px;
+    }
 }
 
 nav ul li:hover ul li {
