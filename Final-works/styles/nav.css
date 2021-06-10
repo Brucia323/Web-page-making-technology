@@ -1,4 +1,4 @@
-nav ul {
+nav>ul {
     display: flex;
     align-items: flex-start;
 }
@@ -10,58 +10,70 @@ nav>ul>li {
     height: 50px;
 }
 
-nav ul li:hover {
+nav>ul>li:hover {
     background-color: #023f87;
     color: white;
 }
 
-nav ul li:hover a {
-    display: block;
-    background-color: #023f87;
-    color: white;
-}
-
-nav ul li:hover ul {
-    display: block;
-    background-color: #023f87;
-    color: white;
-}
-
-nav ul li:hover ul li {
-    background-color: #023f87;
-    color: white;
-}
-
-nav ul li a {
+nav>ul>li>a {
     text-decoration: none;
     height: 30px;
     position: relative;
     top: 15px;
     color: black;
-}
-
-nav>ul>li>a {
     padding-bottom: 5px;
+    z-index: 2;
 }
 
-nav ul li a:hover {
+nav>ul>li:hover>a {
+    display: block;
     background-color: #023f87;
     color: white;
 }
 
-nav ul li ul {
-    display: none;
-    background-color: #023f87;
+nav>ul>li:hover>ul>li>a {
+    display: block;
 }
 
-nav ul li ul li a {
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav>ul>li:hover>ul>li {
+    animation: zhankai 300ms;
+}
+
+@keyframes zhankai {
+    from {
+        margin: 10px auto;
+    }
+
+    to {
+        margin: 0px auto;
+    }
+}
+
+nav>ul>li>ul {
+    display: none;
+}
+
+nav>ul>li>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>ul>li>a {
+    background-color: #023f87;
+    color: white;
     position: relative;
+    font-size: small;
     padding-top: 10%;
     padding-bottom: 10%;
     height: 100%;
-    z-index: 10;
+    z-index: 2;
+    text-decoration: none;
+    top: 15px;
 }
 
-nav ul li ul li:hover a {
+nav>ul>li>ul>li:hover>a {
     background-color: #ff9b25;
 }
