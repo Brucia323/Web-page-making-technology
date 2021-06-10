@@ -1,10 +1,54 @@
-#image {
+main {
     position: absolute;
     display: block;
     top: 150px;
     z-index: 1;
 }
 
-#image img {
+main>div {
     width: 100%;
+}
+
+#image>img {
+    width: 100%;
+}
+
+#tongzhigonggao {
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#tongzhigonggao>h2 {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#tongzhigonggao>p {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#xueyuanxinwen {
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#xueyuanxinwen>h2 {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#xueyuanxinwen>p {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
