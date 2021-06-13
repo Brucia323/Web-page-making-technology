@@ -1,12 +1,12 @@
 header {
-    background-color: #023f87;
+    background-color: #004680;
     display: flex;
     height: 100px;
 }
 
 h1 {
     position: relative;
-    background-color: #023f87;
+    background-color: #004680;
     color: white;
     top: 25px;
     left: 5%;
@@ -15,7 +15,7 @@ h1 {
 }
 
 form {
-    background-color: #023f87;
+    background-color: #004680;
     position: relative;
     margin-top: 35px;
     width: 300px;
