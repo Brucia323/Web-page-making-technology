@@ -1,0 +1,20 @@
+footer {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0px;
+    display: flex;
+}
+footer>h3{
+    left: 100px;
+    margin: 5% 25%;
+    background-color: white;
+}
+footer>div{
+    margin-top: 3%;
+    background-color: white;
+}
+footer>div>p{
+    background-color: white;
+}
