@@ -37,9 +37,6 @@ nav>ul>li:hover>ul>li>a {
 
 nav>ul>li:hover>ul {
     display: block;
-}
-
-nav>ul>li:hover>ul>li {
     animation: zhankai 300ms;
 }
 
