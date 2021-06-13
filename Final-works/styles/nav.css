@@ -1,6 +1,7 @@
 nav>ul {
     display: flex;
     align-items: flex-start;
+    background-color: white;
 }
 
 nav>ul>li {
@@ -8,10 +9,11 @@ nav>ul>li {
     list-style: none;
     text-align: center;
     height: 50px;
+    background-color: white;
 }
 
 nav>ul>li:hover {
-    background-color: #023f87;
+    background-color: #004680;
     color: white;
 }
 
@@ -23,11 +25,12 @@ nav>ul>li>a {
     color: black;
     padding-bottom: 5px;
     z-index: 2;
+    background-color: white;
 }
 
 nav>ul>li:hover>a {
     display: block;
-    background-color: #023f87;
+    background-color: #004680;
     color: white;
 }
 
@@ -59,7 +62,7 @@ nav>ul>li>ul>li {
 }
 
 nav>ul>li>ul>li>a {
-    background-color: #023f87;
+    background-color: #004680;
     color: white;
     position: relative;
     font-size: small;
