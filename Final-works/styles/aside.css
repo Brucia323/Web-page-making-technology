@@ -1,0 +1,26 @@
+aside{
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+    width: 20%;
+}
+aside>h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background-color: #004680;
+    color: white;
+}
+aside>ul>li{
+    list-style: none;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+aside>ul>li>a{
+    text-decoration: none;
+    background-color: white;
+}
