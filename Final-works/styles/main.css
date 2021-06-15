@@ -1,16 +1,13 @@
 main {
-    position: absolute;
-    display: block;
-    top: 150px;
-    z-index: 1;
-    padding-bottom: 200px;
+    margin-bottom: 200px;
+    background-color: rgb(242, 242, 247);
 }
 
 main>div {
     width: 100%;
 }
 
-#image>img {
+#images>img {
     width: 100%;
 }
 
