@@ -6,8 +6,213 @@ main>div {
     width: 100%;
 }
 
-#images>img {
-    width: 100%;
+#images>ul {
+    display: flex;
+    animation: lunbo 60s infinite;
+}
+
+#images>ul>li {
+    list-style: none;
+    float: left;
+}
+
+
+@media screen and (min-width:1500px) {
+    #images {
+        width: 1500px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    @keyframes lunbo {
+        0% {
+            margin-left: 0px;
+        }
+
+        15% {
+            margin-left: 0px;
+        }
+
+        18% {
+            margin-left: -1500px;
+        }
+
+        32% {
+            margin-left: -1500px;
+        }
+
+        35% {
+            margin-left: -3000px;
+        }
+
+        49% {
+            margin-left: -3000px;
+        }
+
+        52% {
+            margin-left: -4500px;
+        }
+
+        65% {
+            margin-left: -4500px;
+        }
+
+        68% {
+            margin-left: -6000px;
+        }
+
+        82% {
+            margin-left: -6000px;
+        }
+
+        85% {
+            margin-left: -7500px;
+        }
+
+        97% {
+            margin-left: -7500px;
+        }
+
+        100% {
+            margin-left: -9000px;
+        }
+    }
+
+    #images>ul>li>img {
+        width: 1500px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1500px) {
+    #images {
+        width: 1000px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    @keyframes lunbo {
+        0% {
+            margin-left: 0px;
+        }
+
+        15% {
+            margin-left: 0px;
+        }
+
+        18% {
+            margin-left: -1000px;
+        }
+
+        32% {
+            margin-left: -1000px;
+        }
+
+        35% {
+            margin-left: -2000px;
+        }
+
+        49% {
+            margin-left: -2000px;
+        }
+
+        52% {
+            margin-left: -3000px;
+        }
+
+        65% {
+            margin-left: -3000px;
+        }
+
+        68% {
+            margin-left: -4000px;
+        }
+
+        82% {
+            margin-left: -4000px;
+        }
+
+        85% {
+            margin-left: -5000px;
+        }
+
+        97% {
+            margin-left: -5000px;
+        }
+
+        100% {
+            margin-left: -6000px;
+        }
+    }
+
+    #images>ul>li>img {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+    #images {
+        width: 500px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    @keyframes lunbo {
+        0% {
+            margin-left: 0px;
+        }
+
+        15% {
+            margin-left: 0px;
+        }
+
+        18% {
+            margin-left: -500px;
+        }
+
+        32% {
+            margin-left: -500px;
+        }
+
+        35% {
+            margin-left: -1000px;
+        }
+
+        49% {
+            margin-left: -1000px;
+        }
+
+        52% {
+            margin-left: -1500px;
+        }
+
+        65% {
+            margin-left: -1500px;
+        }
+
+        68% {
+            margin-left: -2000px;
+        }
+
+        82% {
+            margin-left: -2000px;
+        }
+
+        85% {
+            margin-left: -2500px;
+        }
+
+        97% {
+            margin-left: -2500px;
+        }
+
+        100% {
+            margin-left: -3000px;
+        }
+    }
+
+    #images>ul>li>img {
+        width: 500px;
+    }
 }
 
 #tongzhigonggao {
