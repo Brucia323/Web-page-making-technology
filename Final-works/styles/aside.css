@@ -1,12 +1,14 @@
-aside{
+aside {
     display: block;
     float: left;
     margin-top: 50px;
     margin-left: 50px;
     background-color: white;
     width: 20%;
+    margin-bottom: 20px;
 }
-aside>h2{
+
+aside>h2 {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -14,13 +16,15 @@ aside>h2{
     background-color: #004680;
     color: white;
 }
-aside>ul>li{
+
+aside>ul>li {
     list-style: none;
     height: 50px;
     background-color: white;
     text-align: center;
 }
-aside>ul>li>a{
+
+aside>ul>li>a {
     text-decoration: none;
     background-color: white;
 }
