@@ -1,23 +1,32 @@
 header {
     background-color: #004680;
-    display: flex;
     height: 100px;
+    width: 100%;
 }
 
-h1 {
+#header {
     position: relative;
-    background-color: #004680;
-    color: white;
-    top: 25px;
-    left: 5%;
-    width: 110%;
-    height: 60%;
+    margin-top: 15px;
+    margin-left: 5%;
+    height: 60px;
+    float: left;
 }
 
 form {
-    background-color: #004680;
-    position: relative;
     margin-top: 35px;
-    width: 300px;
-    right: 10px;
+    margin-right: 5%;
+    float: right;
 }
+
+/* @media (prefers-color-scheme: dark) {
+    form {
+        background: #333;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    form {
+        background: white;
+        color: black;
+    }
+} */
