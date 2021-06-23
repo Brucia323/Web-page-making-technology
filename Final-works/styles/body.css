@@ -1,5 +1,5 @@
 * {
-    color: black;
+    /* color: black; */
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -7,4 +7,16 @@
 
 body {
     position: relative;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    * {
+        color: black;
+    }
 }
