@@ -17,16 +17,3 @@ form {
     margin-right: 5%;
     float: right;
 }
-
-/* @media (prefers-color-scheme: dark) {
-    form {
-        background: #333;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    form {
-        background: white;
-        color: black;
-    }
-} */
