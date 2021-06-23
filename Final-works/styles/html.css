@@ -1,5 +1,18 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: rgb(242, 242, 247);
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: black;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        background: rgb(242, 242, 247);
+        color: black;
+    }
 }
