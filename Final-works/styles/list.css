@@ -4,18 +4,31 @@
     width: 60%;
     margin-left: 50px;
     margin-top: 50px;
-    background-color: white;
     padding: 10px;
     margin-bottom: 20px;
 }
 
 #list>h3 {
-    background-color: white;
     text-align: center;
     padding-bottom: 10px;
 }
 
 #list>p {
-    background-color: white;
     padding: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    #list {
+        background: #333;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+
+    #list {
+        background: white;
+        color: #555;
+    }
 }
