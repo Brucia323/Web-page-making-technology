@@ -3,7 +3,6 @@ aside {
     float: left;
     margin-top: 50px;
     margin-left: 50px;
-    background-color: white;
     width: 20%;
     margin-bottom: 20px;
 }
@@ -20,11 +19,23 @@ aside>h2 {
 aside>ul>li {
     list-style: none;
     height: 50px;
-    background-color: white;
     text-align: center;
 }
 
 aside>ul>li>a {
     text-decoration: none;
-    background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    aside {
+        background: #333;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    aside {
+        background: white;
+        color: #555;
+    }
 }
