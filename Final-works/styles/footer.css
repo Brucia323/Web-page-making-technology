@@ -1,19 +1,29 @@
 footer {
-    background-color: white;
     width: 100%;
     height: 200px;
     bottom: 0px;
     display: flex;
 }
-footer>h3{
+
+footer>h3 {
     left: 100px;
     margin: 5% 25%;
-    background-color: white;
 }
-footer>div{
+
+footer>div {
     margin-top: 3%;
-    background-color: white;
 }
-footer>div>p{
-    background-color: white;
+
+@media (prefers-color-scheme: dark) {
+    footer {
+        background: #333;
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    footer {
+        background: white;
+        color: #555;
+    }
 }
