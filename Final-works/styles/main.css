@@ -291,3 +291,32 @@ main>div {
         color: #555;
     }
 }
+
+#gundongtu {
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+#gundongtu>ul {
+    display: flex;
+    animation: gundong 15s linear infinite;
+}
+
+#gundongtu>ul>li>img {
+    height: 250px;
+}
+
+#gundongtu>ul>li {
+    margin: 5px;
+}
+
+@keyframes gundong {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: -2010px;
+    }
+}
