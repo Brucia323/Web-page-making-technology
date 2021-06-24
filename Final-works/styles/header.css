@@ -17,3 +17,11 @@ form {
     margin-right: 5%;
     float: right;
 }
+
+input {
+    height: 30px;
+}
+
+body>header>form>input[type=submit]:nth-child(2) {
+    width: 50px;
+}
