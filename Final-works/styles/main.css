@@ -303,6 +303,10 @@ main>div {
     animation: gundong 15s linear infinite;
 }
 
+#gundongtu>ul:hover {
+    animation-play-state: paused;
+}
+
 #gundongtu>ul>li>img {
     height: 250px;
 }
