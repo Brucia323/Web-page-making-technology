@@ -11,19 +11,26 @@ aside>h2 {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     background-color: #004680;
     color: white;
 }
 
 aside>ul>li {
+    padding-top: 20px;
     list-style: none;
-    height: 50px;
+    height: 40px;
     text-align: center;
 }
 
 aside>ul>li>a {
     text-decoration: none;
+}
+
+aside>ul>li:hover,
+aside>ul>li:hover>a {
+    background-color: #004680;
+    color: white;
 }
 
 @media (prefers-color-scheme: dark) {
