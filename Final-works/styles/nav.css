@@ -73,10 +73,6 @@ nav>ul>li>ul>li>a {
     top: 15px;
 }
 
-nav>ul>li>ul>li:hover>a {
-    background-color: #FF6D70;
-}
-
 nav>ul>li>ul>li>ul {
     display: none;
     position: absolute;
@@ -104,10 +100,6 @@ nav>ul>li>ul>li>ul>li {
     list-style: none;
 }
 
-nav>ul>li>ul>li>ul>li:hover>a {
-    background-color: #FF6D70;
-}
-
 nav>ul>li>ul>li>ul>li>a {
     text-decoration: none;
     background-color: #004680;
@@ -123,11 +115,21 @@ nav>ul>li>ul>li>ul>li>a {
         background: rgba(0, 0, 0, 0.8);
         color: white;
     }
+
+    nav>ul>li>ul>li:hover>a,
+    nav>ul>li>ul>li>ul>li:hover>a {
+        background-color: rgb(255, 159, 10);
+    }
 }
 
 @media (prefers-color-scheme: light) {
     nav {
         background: rgba(255, 255, 255, 0.8);
         color: black;
+    }
+
+    nav>ul>li>ul>li:hover>a,
+    nav>ul>li>ul>li>ul>li:hover>a {
+        background-color: rgb(255, 149, 0);
     }
 }
