@@ -1,14 +1,16 @@
 @charset "utf-8";
+
 /* CSS Document */
 h3 {
-  background-color: blue;
-  color: white;
-  margin: 0px
+    background-color: blue;
+    color: white;
+    margin: 0px
 }
+
 div {
-  background-color: #FFFFD0;
-  width: 40%;
-  border: 1px solid gray;
-  margin-bottom: 10px;
-  text-align: left;
+    background-color: #FFFFD0;
+    width: 40%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    text-align: left;
 }

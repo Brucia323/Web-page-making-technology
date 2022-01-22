@@ -1,6 +1,7 @@
 body {
     background-color: #03f;
 }
-.container{
+
+.container {
     column-count: 3;
 }

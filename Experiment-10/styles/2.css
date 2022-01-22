@@ -1,6 +1,7 @@
 body {
     background-color: #9f3;
 }
-.container{
+
+.container {
     column-count: 2;
 }
